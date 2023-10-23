@@ -1,0 +1,8 @@
+x<-c(200,300,400,600,1000)
+min_x<-min(x)
+max_x<-max(x)
+normalized_x<-(x-min_x)/(max_x-min_x)
+print(normalized_x)
+z_score<- scale(x)
+print(z_score)
+print(sd(x))
